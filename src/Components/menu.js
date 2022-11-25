@@ -1,4 +1,5 @@
-<>
+function Menu(){
+    return (<>
 <div className="row">
     <div className="logo">
         Appstrom
@@ -16,4 +17,6 @@
         </div>
     </div>
 </div>
-</>
+</>)
+}
+export default Menu;
