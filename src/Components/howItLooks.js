@@ -1,33 +1,28 @@
-function howItLooks(){
-    return (
-        <>
-        <div className="title">
-            How It Works
+function HowItLooks(){
+return (
+<>
+<div className="header">
+    <div className="title">
+        How it Looks
+    </div>
+    <div className="sub-head">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    </div>
+    <div className="styles">
+        <div className="navi">
+            <li className="navi-item">Desktop</li>
+            <li className="navi-item">Tablet</li>
+            <li className="navi-item">Phone</li>
         </div>
-        <div className="services">
-            <h3 className="service-title">
-                Monitor Your service-title
-            </h3>
-            <p className="service-description">
-                Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis
-            </p>
-            
-            
-            <h3 className="service-title">
-                Analyze Your Result
-            </h3>
-            <p className="service-description">
-                Curabitur tellus enim, aliquet et porttitor id, accumsan at nulla. Praesent vestibulum
-            </p>
-            <h3 className="service-title">
-                Get Better
-            </h3>
-            <p className="service-description">
-                In non turpis convallis nunc fermentum porttitor sed quis sapien. Etiam et neque
-            </p>
+        <div className="navi-img">
+            <img src="#" alt="" className="show-hide" />
+            <img src="#" alt="" className="show-hide" />
+            <img src="#" alt="" className="show-hide" />
         </div>
-        </>
-    )
+    </div>
+</div>
+</>
+)
 }
 
-export default howItLooks;
+export default HowItLooks;
